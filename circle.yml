@@ -3,7 +3,7 @@ machine:
     - docker
 
 dependencies:
-  overrid:
+  override:
     - docker build -t hello-ci-workflow .
 
 test:
