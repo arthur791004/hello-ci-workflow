@@ -19,7 +19,7 @@
 				[1, 2, 3].indexOf(0).should.be.equal(-1);
 			});
 			it('should return the correct index when the value is present', function() {
-				[1, 2, 3].indexOf(3).should.be.equal(3);
+				[1, 2, 3].indexOf(3).should.be.equal(2);
 			});
 		});
 	});
